@@ -67,5 +67,8 @@
         ]
       }
     }
-  }
+  },
+  "mounts": [
+    "source=/Users/fahadkhan/projects/ezlo/github-desktop/home-assistant-ezlo-cloud/custom_components/ezlohacloud,target=${containerWorkspaceFolder}/config/custom_components/ezlohacloud,type=bind"
+  ]
 }
